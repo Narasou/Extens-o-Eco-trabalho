@@ -21,3 +21,4 @@ def create_account():
     email = request.form['email']
     senha = request.form['senha']
     return f'Conta criada com sucesso para: {nome} ({email})'
+
